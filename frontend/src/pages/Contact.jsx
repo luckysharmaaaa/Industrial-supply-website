@@ -186,7 +186,7 @@ export default function Contact() {
       {/* Google Map */}
       <section className="pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="rounded-2xl overflow-hidden shadow-lg h-[400px] lg:h-[450px]">
+          <div className="rounded-2xl overflow-hidden shadow-lg h-100 lg:h-112.5">
             <iframe
               title="Deepak Enterprises Location"
               src={`https://maps.google.com/maps?q=${encodeURIComponent(BRAND.address)}&t=&z=15&ie=UTF8&iwloc=&output=embed`}

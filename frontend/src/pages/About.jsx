@@ -16,7 +16,7 @@ export default function About() {
       <section className="py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
-            <div className="rounded-2xl overflow-hidden shadow-xl aspect-[4/3] bg-gray-100 sticky top-32">
+            <div className="rounded-2xl overflow-hidden shadow-xl aspect-4/3 bg-gray-100 sticky top-32">
               <img
                 src="/images/about-detail.jpg"
                 alt="Cut cloth and dhoti products"
@@ -45,7 +45,7 @@ export default function About() {
               <h3 className="text-xl font-bold text-navy mb-4">What We Do</h3>
               <ul className="space-y-4">
                 <li className="flex gap-4">
-                  <span className="flex-shrink-0 w-10 h-10 rounded-full bg-brand/10 text-brand flex items-center justify-center font-bold">
+                  <span className="shrink-0 w-10 h-10 rounded-full bg-brand/10 text-brand flex items-center justify-center font-bold">
                     1
                   </span>
                   <div>
@@ -57,7 +57,7 @@ export default function About() {
                   </div>
                 </li>
                 <li className="flex gap-4">
-                  <span className="flex-shrink-0 w-10 h-10 rounded-full bg-brand/10 text-brand flex items-center justify-center font-bold">
+                  <span className="shrink-0 w-10 h-10 rounded-full bg-brand/10 text-brand flex items-center justify-center font-bold">
                     2
                   </span>
                   <div>
@@ -69,7 +69,7 @@ export default function About() {
                   </div>
                 </li>
                 <li className="flex gap-4">
-                  <span className="flex-shrink-0 w-10 h-10 rounded-full bg-brand/10 text-brand flex items-center justify-center font-bold">
+                  <span className="shrink-0 w-10 h-10 rounded-full bg-brand/10 text-brand flex items-center justify-center font-bold">
                     3
                   </span>
                   <div>
